@@ -1,13 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Todo App</title>
-    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <h1>Todo App</h1>
+
+    <div class="wrapper">
+      <form>
+        <input
+          type="text"
+          id="todo-input"
+          placeholder="write anything and hit enter to add"
+          autocomplete="off"
+        />
+        <button id="add-btn">ADD</button>
+      </form>
+
+      <ul id="todo-list"></ul>
+    </div>
+  </body>
 </html>
