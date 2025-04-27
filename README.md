@@ -14,7 +14,7 @@ A responsive and lightweight to-do list application built using **HTML**, **CSS*
 ## 🌐 Live Demo
 
 Check out the live version on **Netlify**:  
-👉 [https://your-todo-app.netlify.app](https://your-todo-app.netlify.app)
+👉 https://todo-app295.netlify.app/
 
 ## 📂 Tech Stack
 
@@ -22,9 +22,8 @@ Check out the live version on **Netlify**:
 - **CSS** – Styling & responsiveness  
 - **JavaScript** – Functionality & LocalStorage handling
 
-
 ## 🛠️ Getting Started
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/aherakash295/todo-app
